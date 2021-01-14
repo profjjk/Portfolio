@@ -3,25 +3,45 @@
     box-sizing: border-box;
 }
 
-/***** HEADER *****/
-#hero-img {
-    z-index: -1;
+section {
+    height: 800px;
 }
 
-#hero-title h1 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    color: #fff;
-    transform: translate(-50%, -50%);
+/***** NAVBAR *****/
+nav {
+    background: #cdac81;
+    width: fit-content;
+    margin-left: 2%;
+    border-radius: 3px;
 }
-#hero-title h4 {
+nav ul li {
+    height: 6em;
+    width: 6em;
+    position: relative;
+}
+nav ul li a {
+    color: #f5f4f4;
     position: absolute;
     top: 45%;
     left: 50%;
     color: #fff;
     transform: translate(-50%, -50%);
 }
+
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url("img/profile-hero.png") no-repeat center center fixed;
+    background-size: cover;
+}
+header h1, h4 {
+    color: #f5f4f4;
+}
+#hero-title {
+
+}
+
 
 /***** PROFILE *****/
 
@@ -37,4 +57,6 @@
 /***** CONTACT *****/
 #contact {
     background: #424242;
+    top: 50%;
+    transform: translateY(-50%);
 }
