@@ -1,4 +1,4 @@
-/***** GENERAL *****/
+/***** GLOBAL *****/
 * {
     box-sizing: border-box;
 }
@@ -7,7 +7,13 @@ section {
     height: 800px;
 }
 
-/***** NAVBAR *****/
+header, #portfolio, #contact {
+    height: 800px;
+    background: url("img/profile-hero-800px.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/***** NAVBAR SECTION *****/
 nav {
     background: #cdac81;
     width: fit-content;
@@ -29,12 +35,7 @@ nav ul li a {
 }
 
 
-/***** HEADER *****/
-header, #portfolio, #contact {
-    height: 800px;
-    background: url("img/profile-hero-800px.png") no-repeat center center fixed;
-    background-size: cover;
-}
+/***** HEADER SECTION *****/
 header h1, h4 {
     color: #f5f4f4;
 }
@@ -43,7 +44,7 @@ header h1, h4 {
 }
 
 
-/***** PROFILE *****/
+/***** PROFILE SECTION *****/
 #profile {
     padding-top: 6%;
 }
@@ -64,7 +65,7 @@ header h1, h4 {
     text-align: center;
 }
 
-/***** PORTFOLIO *****/
+/***** PORTFOLIO SECTION *****/
 #portfolio {
     padding-top: 6%;
 }
@@ -72,11 +73,16 @@ header h1, h4 {
     color: #f5f4f4;
     margin-bottom: 8%;
 }
+#portfolio img {
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+}
 
-/***** SKILLS *****/
+/***** SKILLS SECTION *****/
 
 
-/***** CONTACT *****/
+/***** CONTACT SECTION *****/
 #contact {
 
 }
