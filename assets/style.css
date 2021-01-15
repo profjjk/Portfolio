@@ -73,6 +73,11 @@ header h1, h4 {
     color: #f5f4f4;
     margin-bottom: 8%;
 }
+#portfolio .col-3 {
+    border: #cdac81;
+    border-radius: 5px;
+    border-width: 5px;
+}
 #portfolio img {
     height: 300px;
     width: 450px;
